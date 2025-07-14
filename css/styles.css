@@ -3371,7 +3371,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-    --content-padding-top    : 20vh;
+    --content-padding-top    : 10vh;
     --content-padding-bottom : 9.6rem;
     z-index                  : 3;
     background-color         : #1C1C24;
