@@ -14,6 +14,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: ⚠️ Debug only - print values
+      run: |
+        echo "FTP_HOST=${{ secrets.FTP_HOST }}"
+        echo "FTP_USERNAME=${{ secrets.FTP_USERNAME }}"
+
     - name: Deploy to cPanel via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
