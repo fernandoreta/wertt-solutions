@@ -4149,6 +4149,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-clients {
     padding-top : var(--vspace-2);
+    background-color: black;
 }
 
 .s-clients .section-header {
